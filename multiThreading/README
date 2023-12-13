@@ -1,0 +1,21 @@
+Author: Justin Laalo (SN: 101232038)
+Description of program: The program will uses the idea of link lists to sort, add and print out elements in the list
+List of files:
+	- building.c
+	- defs.h
+	- ghost.c
+	- main.c
+	- room.c
+Compilation Command: gcc -o A4 building.c ghost.c main.c room.c
+Launching Command: valgrind ./A4
+Instructions:
+	- First go to the terminal, go to the directorie of the file is in and then do the following:
+		- When you are in the directorie type in the compilation command
+		- Then type in the launching command 
+	
+	- If you type in 1:
+		- It will print out all the rooms
+	- if you type 2:
+		- It will print out all unordered ghosts
+	- If you type 3:
+		- It will print out all the ghosts sorted by likelihood
